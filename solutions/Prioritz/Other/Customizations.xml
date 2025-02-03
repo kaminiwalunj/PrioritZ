@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24123.252" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.24123.00252">
+  <Entities />
+  <Roles />
+  <Workflows />
+  <FieldSecurityProfiles />
+  <Templates />
+  <EntityImageConfigs>
+    <EntityImageConfig>
+      <parententitylogicalname>contoso_prioritztopic</parententitylogicalname>
+      <primaryimageattribute>contoso_photo</primaryimageattribute>
+    </EntityImageConfig>
+    <EntityImageConfig>
+      <parententitylogicalname>contoso_prioritztopicitem</parententitylogicalname>
+      <primaryimageattribute>contoso_photo</primaryimageattribute>
+    </EntityImageConfig>
+  </EntityImageConfigs>
+  <AttributeImageConfigs>
+    <AttributeImageConfig>
+      <attributelogicalname>contoso_photo</attributelogicalname>
+      <parententitylogicalname>contoso_prioritztopic</parententitylogicalname>
+      <canstorefullimage>1</canstorefullimage>
+    </AttributeImageConfig>
+    <AttributeImageConfig>
+      <attributelogicalname>contoso_photo</attributelogicalname>
+      <parententitylogicalname>contoso_prioritztopicitem</parententitylogicalname>
+      <canstorefullimage>1</canstorefullimage>
+    </AttributeImageConfig>
+  </AttributeImageConfigs>
+  <EntityMaps />
+  <EntityRelationships />
+  <OrganizationSettings />
+  <optionsets />
+  <CustomControls />
+  <EntityDataProviders />
+  <CanvasApps />
+  <connectionreferences>
+    <connectionreference connectionreferencelogicalname="contoso_sharedcommondataserviceforapps_5e308">
+      <connectionreferencedisplayname>Microsoft Dataverse Prioritz-5e308</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <promptingbehavior>0</promptingbehavior>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="contoso_sharedcontoso5fbadges20connector5f980c8421edea6722_aa2ef">
+      <connectionreferencedisplayname>Badges connector Prioritz-aa2ef</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_contoso-5fbadges-20connector-5f980c8421edea6722</connectorid>
+      <customconnectorid>
+        <connectorid>2f2450f1-3ebe-4171-b028-ebe4c963ea53</connectorid>
+      </customconnectorid>
+      <iscustomizable>1</iscustomizable>
+      <promptingbehavior>0</promptingbehavior>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+  </connectionreferences>
+  <Languages>
+    <Language>1033</Language>
+  </Languages>
+</ImportExportXml>
